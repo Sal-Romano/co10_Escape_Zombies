@@ -268,6 +268,11 @@ class CfgFunctions
 			class onPlayerSpotted {};
 
 		};
+		class Multiplayer
+		{
+			class spawnMenu {};
+			class createDynamicPrison {};
+		};
 	};
 	class drn
 	{

@@ -4,6 +4,50 @@ if(!hasInterface) exitwith {};
 
 waituntil {!isnull player};
 
+// Multiplayer spawn system
+player setVariable ["A3E_MP_InLobby", true, true];
+
+// Strip gear immediately
+removeAllAssignedItems player;
+removeAllWeapons player;
+removeAllItems player;
+removeBackpack player;
+removeVest player;
+removeHeadgear player;
+removeGoggles player;
+if(hmd player != "") then {
+	private _hmd = hmd player;
+	player unlinkItem _hmd;
+};
+
+// Show spawn menu and wait for selection
+private _spawnResult = call A3E_fnc_spawnMenu;
+_spawnResult params ["_spawnPos", "_spawnType"];
+
+if (_spawnType == "group") then {
+    // Spawn on group - find nearest alive group member
+    private _nearestMember = objNull;
+    {
+        if (alive _x && !(_x getVariable ["A3E_MP_InLobby", true])) exitWith {
+            _nearestMember = _x;
+        };
+    } forEach ((units group player) - [player]);
+
+    if (!isNull _nearestMember) then {
+        private _safePos = _nearestMember getPos [5 + random 10, random 360];
+        player setPos _safePos;
+        player setVariable ["A3E_MP_InLobby", false, true];
+        player setCaptive false;
+    };
+} else {
+    // City spawn - request prison creation on server
+    [_spawnPos, player] remoteExec ["A3E_fnc_createDynamicPrison", 2];
+    // Wait for server to place us
+    waitUntil {sleep 0.1; !(player getVariable ["A3E_MP_InLobby", true])};
+    // Put player in their own group for Wasteland-style PVP
+    [player] joinSilent createGroup [west, true];
+};
+
 call A3E_FNC_Briefing;
 
 sleep 0.5;
@@ -20,17 +64,6 @@ AT_Revive_Camera = 1;
 
 [] call A3E_fnc_addUserActions;
 
-removeAllAssignedItems player;
-removeAllWeapons player;
-removeAllItems player;
-removeBackpack player;
-removeVest player;
-removeHeadgear player;
-removeGoggles player;
-if(hmd player != "") then {
-	private _hmd = hmd player;
-	player unlinkItem _hmd;
-};
 if(A3E_DEBUG) then {
 	player allowdamage false;
 	player linkitem "ItemMap";

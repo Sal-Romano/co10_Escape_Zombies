@@ -30,9 +30,10 @@ sleep 0.5;
 
 painscream = player addAction ["<t color='#C00000'>Scream in Agonizing Pain</t>",{
 
-	 _randomElement = selectRandom["Scream","Scream2","Scream3","Scream4","Scream5","Scream6","Scream7","Scream8","Scream9","Scream10","Scream11","Scream12","Scream13","Scream14","Scream15","Scream16","Scream17","Scream18","Scream19","Scream20","Scream21","Scream22","Scream23","Scream24","Scream25","Scream26","Scream27","Scream28","Scream29","Scream30","Scream31","Scream32","Scream33","Scream34","Scream35","Scream36","Scream37","Scream38","Scream39","Scream40","Scream41"];
+	 _randomFile = selectRandom["SSD_Scream1","SSD_Scream2","SSD_Scream3","SSD_Scream4","SSD_Scream5","SSD_Scream6","SSD_Scream7","SSD_Scream8","SSD_Scream9","SSD_Scream10","SSD_Scream11","SSD_Scream12","SSD_Scream13","SSD_Scream14","SSD_Scream15","SSD_Scream16","SSD_Scream17","SSD_Scream18","SSD_Scream19","SSD_Scream20","SSD_Scream21","SSD_Scream22","SSD_Scream23","SSD_Scream24","SSD_Scream25","SSD_Scream26","SSD_Scream27","SSD_Scream28","SSD_Scream29","SSD_Scream30","SSD_Scream31","SSD_Scream32","SSD_Scream33","SSD_Scream34","SSD_Scream35","SSD_Scream36","SSD_Scream37","SSD_Scream38","SSD_Scream39","SSD_Scream40","SSD_Scream41"];
 
-	 [player, _randomElement, 500] call CBA_fnc_globalSay3d;
+	 _path = format["sounds\screams\%1.ogg", _randomFile];
+	 [_path, getPosASL player, false, getPosASL player, 1, 1, 500] remoteExec ["playSound3D", 0];
 
 },[],1,false]; 
 
