@@ -9,9 +9,9 @@
 // Mission Header
 class Header
 {
-  gameType = Coop;
+  gameType = co10esc;
   minPlayers = 1;
-  maxPlayers = 30;
+  maxPlayers = 10;
 };
 
 onLoadName = MISSIONNAME;

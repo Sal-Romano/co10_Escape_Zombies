@@ -39,6 +39,11 @@ private _groupMembers = (units group player) - [player];
 waitUntil {sleep 0.1; !isNull (findDisplay 46)};
 sleep 1;
 
+// Give player a map and GPS so the map screen works
+player linkItem "ItemMap";
+player linkItem "ItemGPS";
+sleep 0.1;
+
 // Clear all overlays
 titleText ["", "PLAIN", 0.01];
 cutText ["", "PLAIN", 0.01];
@@ -74,9 +79,11 @@ if (_canSpawnOnGroup) then {
     };
 };
 
-// Force map open - keep trying until it's actually open
+// Force map open and center on Chernarus
 openMap true;
 waitUntil {sleep 0.1; visibleMap};
+mapAnimAdd [0, 0.05, [7700, 8000, 0]];
+mapAnimCommit;
 
 hint "Click a GREEN marker to select your spawn city.\nYou will start as a prisoner there.\n\nYELLOW marker = Spawn on your group.";
 
