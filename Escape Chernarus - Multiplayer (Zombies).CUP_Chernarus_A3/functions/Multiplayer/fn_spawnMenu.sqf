@@ -37,12 +37,14 @@ private _groupMembers = (units group player) - [player];
     };
 } forEach _groupMembers;
 
-// Black screen with instructions
-titleText ["SELECT SPAWN LOCATION", "BLACK", 0.5];
+// Clear any black screens, then open map
+titleText ["", "PLAIN", 0.01];
+cutText ["", "PLAIN", 0.01];
+sleep 0.1;
+openMap [true, false];
 sleep 0.5;
-
-// Open map
-openMap true;
+titleText ["", "PLAIN", 0.01];
+cutText ["", "PLAIN", 0.01];
 
 // Add city markers
 private _markers = [];
