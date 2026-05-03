@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=300;
+		nextID=280;
 	};
 	class MarkerIDProvider
 	{
@@ -435,28 +435,28 @@ class Mission
 			side="WEST";
 			class Entities
 			{
-				items=30;
+				items=10;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7928.2500,339.00000,7108.0000};
-						angles[]={6.2472029,0.062423099,0.070549726};
+						position[]={7932.4189,338.97781,7111.9595};
+						angles[]={6.2472029,6.1442924,0.070549726};
 					};
 					side="WEST";
 					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
+						rank="COLONEL";
+						init="this setCaptive true; if(this == p2) then {this setUnitTrait ['UavHacker',true];};";
 						name="p1";
 						isPlayer=1;
 						isPlayable=1;
 					};
 					id=47;
-					type="CUP_B_USMC_Soldier";
+					type="CUP_B_USMC_Soldier_SL";
 					atlOffset=0.16778564;
 				};
 				class Item1
@@ -464,7 +464,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7929.7500,339.00000,7108.0000};
+						position[]={7930.5361,338.78027,7110.1675};
 						angles[]={6.2472029,0.062423099,0.070549726};
 					};
 					side="WEST";
@@ -472,21 +472,21 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
+						rank="MAJOR";
+						init="this setCaptive true; if(this == p2) then {this setUnitTrait ['UavHacker',true];};";
 						name="p2";
 						isPlayable=1;
 					};
 					id=48;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
+					type="CUP_B_USMC_Soldier_UAV_FROG_WDL";
+					atlOffset=0.17800903;
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7931.2500,339.00000,7108.0000};
+						position[]={7929.8291,338.82196,7112.7144};
 						angles[]={6.2472029,0.062423099,0.070549726};
 					};
 					side="WEST";
@@ -494,21 +494,21 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
+						rank="CAPTAIN";
+						init="this setCaptive true; if(this == p2) then {this setUnitTrait ['UavHacker',true];};";
 						name="p3";
 						isPlayable=1;
 					};
 					id=49;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
+					type="CUP_B_USMC_Soldier_AA";
+					atlOffset=0.1809082;
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7932.7500,339.00000,7108.0000};
+						position[]={7929.7432,338.76672,7111.3472};
 						angles[]={6.2472029,0.062423099,0.070549726};
 					};
 					side="WEST";
@@ -516,21 +516,21 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
+						rank="LIEUTENANT";
+						init="this setCaptive true; if(this == p2) then {this setUnitTrait ['UavHacker',true];};";
 						name="p4";
 						isPlayable=1;
 					};
 					id=50;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
+					type="CUP_B_USMC_Engineer";
+					atlOffset=0.18276978;
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7934.2500,339.00000,7108.0000};
+						position[]={7933.1377,338.93991,7109.4956};
 						angles[]={6.2472029,0.062423099,0.070549726};
 					};
 					side="WEST";
@@ -538,21 +538,21 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
+						rank="LIEUTENANT";
+						init="this setCaptive true; if(this == p2) then {this setUnitTrait ['UavHacker',true];};";
 						name="p5";
 						isPlayable=1;
 					};
 					id=51;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
+					type="CUP_B_USMC_Soldier_GL";
+					atlOffset=0.16821289;
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7935.7500,339.00000,7108.0000};
+						position[]={7934.4717,339.05301,7110.019};
 						angles[]={6.2472029,0.062423099,0.070549726};
 					};
 					side="WEST";
@@ -560,542 +560,100 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
+						rank="SERGEANT";
+						init="this setCaptive true; if(this == p2) then {this setUnitTrait ['UavHacker',true];};";
 						name="p6";
 						isPlayable=1;
 					};
 					id=52;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
+					type="CUP_B_USMC_Soldier_MG";
+					atlOffset=0.16213989;
 				};
 				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7928.2500,339.00000,7109.5000};
+						position[]={7931.7314,338.84238,7109.5464};
 						angles[]={6.2472029,0.062423099,0.070549726};
 					};
 					side="WEST";
 					flags=4;
 					class Attributes
 					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
+						skill=0.59000003;
+						rank="SERGEANT";
+						init="this setCaptive true; if(this == p2) then {this setUnitTrait ['UavHacker',true];};";
 						name="p7";
 						isPlayable=1;
 					};
 					id=53;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
+					type="CUP_B_USMC_Soldier_AT";
+					atlOffset=0.17364502;
 				};
 				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7929.7500,339.00000,7109.5000};
-						angles[]={6.2472029,0.062423099,0.070549726};
+						position[]={7935.6416,339.15762,7110.6519};
+						angles[]={6.247201,0.062423099,0.069221549};
 					};
 					side="WEST";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
+						rank="CORPORAL";
+						init="this setCaptive true; if(this == p2) then {this setUnitTrait ['UavHacker',true];};";
 						name="p8";
 						isPlayable=1;
 					};
 					id=54;
 					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
+					atlOffset=0.16082764;
 				};
 				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7931.2500,339.00000,7109.5000};
-						angles[]={6.2472029,0.062423099,0.070549726};
+						position[]={7936.4619,339.25388,7111.7456};
+						angles[]={6.247201,0.062423099,0.069221549};
 					};
 					side="WEST";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
+						init="this setCaptive true; if(this == p2) then {this setUnitTrait ['UavHacker',true];};";
 						name="p9";
 						isPlayable=1;
 					};
 					id=55;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
+					type="CUP_B_USMC_Soldier_Marksman";
+					atlOffset=0.16226196;
 				};
 				class Item9
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7932.7500,339.00000,7109.5000};
-						angles[]={6.2472029,0.062423099,0.070549726};
+						position[]={7937.083,339.33606,7112.8315};
+						angles[]={6.247201,0.062423099,0.069221549};
 					};
 					side="WEST";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
+						init="this setCaptive true; if(this == p2) then {this setUnitTrait ['UavHacker',true];};";
 						name="p10";
 						isPlayable=1;
 					};
 					id=56;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item10
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7934.2500,339.00000,7109.5000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p11";
-						isPlayable=1;
-					};
-					id=260;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item11
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7935.7500,339.00000,7109.5000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p12";
-						isPlayable=1;
-					};
-					id=261;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item12
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7928.2500,339.00000,7111.0000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p13";
-						isPlayable=1;
-					};
-					id=262;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item13
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7929.7500,339.00000,7111.0000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p14";
-						isPlayable=1;
-					};
-					id=263;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item14
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7931.2500,339.00000,7111.0000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p15";
-						isPlayable=1;
-					};
-					id=264;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item15
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7932.7500,339.00000,7111.0000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p16";
-						isPlayable=1;
-					};
-					id=265;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item16
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7934.2500,339.00000,7111.0000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p17";
-						isPlayable=1;
-					};
-					id=266;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item17
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7935.7500,339.00000,7111.0000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p18";
-						isPlayable=1;
-					};
-					id=267;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item18
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7928.2500,339.00000,7112.5000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p19";
-						isPlayable=1;
-					};
-					id=268;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item19
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7929.7500,339.00000,7112.5000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p20";
-						isPlayable=1;
-					};
-					id=269;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item20
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7931.2500,339.00000,7112.5000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p21";
-						isPlayable=1;
-					};
-					id=270;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item21
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7932.7500,339.00000,7112.5000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p22";
-						isPlayable=1;
-					};
-					id=271;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item22
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7934.2500,339.00000,7112.5000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p23";
-						isPlayable=1;
-					};
-					id=272;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item23
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7935.7500,339.00000,7112.5000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p24";
-						isPlayable=1;
-					};
-					id=273;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item24
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7928.2500,339.00000,7114.0000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p25";
-						isPlayable=1;
-					};
-					id=274;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item25
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7929.7500,339.00000,7114.0000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p26";
-						isPlayable=1;
-					};
-					id=275;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item26
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7931.2500,339.00000,7114.0000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p27";
-						isPlayable=1;
-					};
-					id=276;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item27
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7932.7500,339.00000,7114.0000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p28";
-						isPlayable=1;
-					};
-					id=277;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item28
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7934.2500,339.00000,7114.0000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p29";
-						isPlayable=1;
-					};
-					id=278;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
-				};
-				class Item29
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7935.7500,339.00000,7114.0000};
-						angles[]={6.2472029,0.062423099,0.070549726};
-					};
-					side="WEST";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						description="Prisoner";
-						init="this setCaptive true;";
-						name="p30";
-						isPlayable=1;
-					};
-					id=279;
-					type="CUP_B_USMC_Soldier";
-					atlOffset=0.16778564;
+					type="CUP_B_USMC_Medic";
+					atlOffset=0.16073608;
 				};
 			};
 			class Attributes
