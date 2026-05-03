@@ -1,6 +1,5 @@
 // fn_spawnMenu.sqf
 // Shows spawn city selection to player
-// Called from fn_initLocalPlayer.sqf after initial setup
 
 private _cities = [
     ["Chernogorsk", [6731, 2570, 0]],
@@ -25,10 +24,9 @@ private _cities = [
     ["Nadezhdino", [5800, 4700, 0]]
 ];
 
-// Store cities globally for the dialog
 A3E_MP_Cities = _cities;
 
-// Check if player is in a group with alive members already spawned
+// Check for alive group members
 private _canSpawnOnGroup = false;
 private _groupMembers = (units group player) - [player];
 {
@@ -37,16 +35,16 @@ private _groupMembers = (units group player) - [player];
     };
 } forEach _groupMembers;
 
-// Clear any black screens, then open map
-titleText ["", "PLAIN", 0.01];
-cutText ["", "PLAIN", 0.01];
-sleep 0.1;
-openMap [true, false];
-sleep 0.5;
-titleText ["", "PLAIN", 0.01];
-cutText ["", "PLAIN", 0.01];
+// Wait for main display to be ready
+waitUntil {sleep 0.1; !isNull (findDisplay 46)};
+sleep 1;
 
-// Add city markers
+// Clear all overlays
+titleText ["", "PLAIN", 0.01];
+cutText ["", "PLAIN", 0.01];
+sleep 0.3;
+
+// Add city markers BEFORE opening map so they're visible immediately
 private _markers = [];
 {
     _x params ["_name", "_pos"];
@@ -58,7 +56,6 @@ private _markers = [];
     _markers pushBack _mkr;
 } forEach _cities;
 
-// Add "Spawn on Group" marker if applicable
 if (_canSpawnOnGroup) then {
     private _leader = objNull;
     {
@@ -77,13 +74,16 @@ if (_canSpawnOnGroup) then {
     };
 };
 
-// Add hint
+// Force map open - keep trying until it's actually open
+openMap true;
+waitUntil {sleep 0.1; visibleMap};
+
 hint "Click a GREEN marker to select your spawn city.\nYou will start as a prisoner there.\n\nYELLOW marker = Spawn on your group.";
 
 // Wait for map click
 A3E_MP_SpawnSelected = false;
 A3E_MP_SpawnPos = [0,0,0];
-A3E_MP_SpawnType = "city"; // "city" or "group"
+A3E_MP_SpawnType = "city";
 
 onMapSingleClick {
     private _clickPos = _pos;
@@ -91,16 +91,13 @@ onMapSingleClick {
     private _selectedCity = "";
     private _selectedPos = [0,0,0];
 
-    // Check if clicked near group spawn marker
     if (!isNil "A3E_MP_Cities") then {
-        // Check group spawn first
         private _grpMkrPos = getMarkerPos "spawn_on_group";
         if (_grpMkrPos distance2D _clickPos < _minDist && _grpMkrPos distance2D [0,0,0] > 1) then {
             A3E_MP_SpawnPos = _grpMkrPos;
             A3E_MP_SpawnType = "group";
             A3E_MP_SpawnSelected = true;
         } else {
-            // Check cities
             {
                 _x params ["_name", "_cityPos"];
                 if (_cityPos distance2D _clickPos < _minDist) then {
@@ -125,14 +122,20 @@ onMapSingleClick {
     };
 };
 
-// Wait for selection
+// Keep map open if player closes it
+[] spawn {
+    while {!A3E_MP_SpawnSelected} do {
+        if (!visibleMap) then {
+            openMap true;
+            hint "You must select a spawn location first!";
+        };
+        sleep 0.3;
+    };
+};
+
 waitUntil {sleep 0.1; A3E_MP_SpawnSelected};
 
-// Cleanup markers
 {deleteMarkerLocal _x} forEach _markers;
-
 hint "";
-titleText ["", "BLACK IN", 2];
 
-// Return the spawn position and type
 [A3E_MP_SpawnPos, A3E_MP_SpawnType]
