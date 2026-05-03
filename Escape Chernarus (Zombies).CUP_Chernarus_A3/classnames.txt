@@ -1,0 +1,584 @@
+
+"CUP_C_Datsun",
+"CUP_C_Lada_GreenTK_CIV",
+"CUP_C_S1203_Ambulance_CIV",
+"CUP_C_S1203_CIV",
+"CUP_C_TK_Man_01",
+"CUP_C_TK_Man_06_Waist",
+"CUP_C_UAZ_Open_TK_CIV",
+"CUP_C_V3S_Open_TKC",
+"CUP_C_Volha_Blue_TKCIV",
+"CUP_C_Volha_Gray_TKCIV",
+"CUP_C_Volha_Limo_TKCIV",
+"C_man_1",
+
+
+
+"LOP_TAK_Civ_Landrover"
+,"LOP_TAK_Civ_Offroad"
+,"LOP_TAK_Civ_UAZ"
+,"LOP_TAK_Civ_UAZ_Open"
+,"LOP_TAK_Civ_Ural"
+,"LOP_TAK_Civ_Ural_open"
+,"C_Truck_02_fuel_F"
+,"C_Truck_02_transport_F"
+
+"LOP_CHR_Civ_Landrover"
+,"LOP_CHR_Civ_Offroad"
+,"LOP_CHR_Civ_UAZ"
+,"LOP_CHR_Civ_UAZ_Open"
+,"LOP_CHR_Civ_Ural"
+,"LOP_CHR_Civ_Ural_open"
+,"C_Truck_02_fuel_F"
+,"C_Truck_02_transport_F"
+
+
+
+"LOP_CHR_Civ_Assistant",
+"LOP_CHR_Civ_Doctor_01",
+"LOP_CHR_Civ_Functionary_01",
+"LOP_CHR_Civ_Functionary_02",
+"LOP_CHR_Civ_Policeman_01",
+"LOP_CHR_Civ_Rocker_01",
+"LOP_CHR_Civ_Rocker_02",
+"LOP_CHR_Civ_Rocker_03",
+"LOP_CHR_Civ_Rocker_04",
+"LOP_CHR_Civ_Villager_01",
+"LOP_CHR_Civ_Villager_02",
+"LOP_CHR_Civ_Villager_03",
+"LOP_CHR_Civ_Villager_04",
+"LOP_CHR_Civ_Woodlander_01",
+"LOP_CHR_Civ_Woodlander_02",
+"LOP_CHR_Civ_Woodlander_03",
+"LOP_CHR_Civ_Woodlander_04",
+"LOP_CHR_Civ_Worker_01",
+"LOP_CHR_Civ_Worker_02",
+"LOP_CHR_Civ_Worker_03",
+"LOP_CHR_Civ_Worker_04"
+
+
+"LOP_Tak_Civ_Man_01",
+"LOP_Tak_Civ_Man_02",
+"LOP_Tak_Civ_Man_04",
+"LOP_Tak_Civ_Man_05",
+"LOP_Tak_Civ_Man_06",
+"LOP_Tak_Civ_Man_07",
+"LOP_Tak_Civ_Man_08",
+"LOP_Tak_Civ_Man_09",
+"LOP_Tak_Civ_Man_10",
+"LOP_Tak_Civ_Man_11",
+"LOP_Tak_Civ_Man_12",
+"LOP_Tak_Civ_Man_13",
+"LOP_Tak_Civ_Man_14",
+"LOP_Tak_Civ_Man_15",
+"LOP_Tak_Civ_Man_16",
+"LOP_Tak_Civ_Random"
+
+"uns_H13_transport_USMC",
+"uns_HiddenAmmoBox",
+"uns_HiddenAmmoBox_small1",
+"uns_HiddenAmmoBox_small2",
+"uns_HiddenAmmoBox_small3",
+
+
+
+
+"uns_UH1D_m60",
+"uns_ach47_m134",
+"uns_ch47_m60_army",
+"uns_uh1c_m6_m158"
+
+"uh1_wreck",
+"uns_uh1_wreck",
+"uns_uh1c_wreck"
+
+"uns_civilian1",
+"uns_civilian1_b3",
+"uns_civilian2",
+"uns_civilian2_b1",
+"uns_civilian2_b3",
+"uns_civilian3",
+"uns_civilian3_b1",
+"uns_civilian4",
+"uns_civilian4_b1",
+"uns_civilian4_b2",
+
+
+"uns_men_USMC_68_AT",
+"uns_men_USMC_68_DEM",
+"uns_men_USMC_68_ENG",
+"uns_men_USMC_68_GL",
+"uns_men_USMC_68_HMG",
+"uns_men_USMC_68_MED",
+"uns_men_USMC_68_MRK",
+"uns_men_USMC_68_PL",
+"uns_men_USMC_68_RF4",
+"uns_men_USMC_68_RTO",
+"uns_men_USMC_68_SCT",
+"uns_men_USMC_68_SL",
+
+
+
+
+
+"uns_an2",
+"uns_Mi8MB_VPAF_medevac",
+"uns_Mi8TV_VPAF_MG",
+"uns_Mi8T_VPAF",
+"uns_Mig21_AGM",
+"uns_mig21_MR",
+
+
+
+
+
+
+
+
+"uns_Type55",
+"uns_Type55_LMG",
+"uns_Type55_MG",
+"uns_Type63_amb",
+
+"uns_Type74_NVA",
+"uns_BTR152_DSHK",
+"uns_zil157",
+"uns_zil157_repair",
+"uns_Zil157_refuel",
+"uns_nvatruck",
+"uns_nvatruck_mg",
+"uns_nvatruck_open",
+"uns_nvatruck_reammo",
+"uns_nvatruck_refuel",
+"uns_nvatruck_repair",
+"rhsgref_ins_uaz",
+"rhsgref_ins_uaz_open",
+"rhsgref_ins_uaz_dshkm",
+"rhsgref_ins_uaz_spg9"
+
+"uns_pk_high_NVA",
+"uns_M40_106mm_NVA",
+"uns_SPG9_73mm_NVA",
+"uns_dshk_high_NVA",
+"uns_m1941_82mm_mortarNVA",
+"uns_m1941_82mm_mortarNVA_arty",
+"uns_ZPU4_NVA",
+
+
+
+
+"uns_nvaf_pilot1",
+"uns_nvaf_pilot2",
+"uns_pilot1",
+"uns_pilot5",
+
+
+"uns_t34_85_nva",
+"uns_t54_nva",
+"uns_t55_nva",
+"uns_ot34_85_nva",
+"uns_Type63_mg",
+"pook_zsu57_nva"
+
+"uns_men_NVA_65_AA",
+"uns_men_NVA_65_AS3",
+"uns_men_NVA_65_AS4",
+"uns_men_NVA_65_AS6",
+"uns_men_NVA_65_AS7",
+"uns_men_NVA_65_AT",
+"uns_men_NVA_65_AT2",
+"uns_men_NVA_65_COM",
+"uns_men_NVA_65_HMG",
+"uns_men_NVA_65_LMG",
+"uns_men_NVA_65_MED",
+"uns_men_NVA_65_MRK",
+"uns_men_NVA_65_RF1",
+"uns_men_NVA_65_RF3",
+"uns_men_NVA_65_RTO",
+"uns_men_NVA_65_SAP",
+"uns_men_NVA_65_nco",
+"uns_men_NVA_65_off",
+
+"uns_men_NVA_68_AA",
+"uns_men_NVA_68_AS2",
+"uns_men_NVA_68_AS3",
+"uns_men_NVA_68_AS4",
+"uns_men_NVA_68_AS5",
+"uns_men_NVA_68_AS6",
+"uns_men_NVA_68_AS7",
+"uns_men_NVA_68_AS8",
+"uns_men_NVA_68_AT",
+"uns_men_NVA_68_AT2",
+"uns_men_NVA_68_COM",
+"uns_men_NVA_68_HMG",
+"uns_men_NVA_68_LMG",
+"uns_men_NVA_68_MED",
+"uns_men_NVA_68_MGAAS",
+"uns_men_NVA_68_MGS",
+"uns_men_NVA_68_MRK",
+"uns_men_NVA_68_MTS",
+"uns_men_NVA_68_RF1",
+"uns_men_NVA_68_RF2",
+"uns_men_NVA_68_RF3",
+"uns_men_NVA_68_RF4",
+"uns_men_NVA_68_RTO",
+"uns_men_NVA_68_SAP",
+"uns_men_NVA_68_TRI",
+"uns_men_NVA_68_nco",
+"uns_men_NVA_68_off",
+
+"uns_men_NVA_crew_Tdriver",
+"uns_men_NVA_crew_driver",
+"uns_men_NVA_crew_gunner",
+
+"uns_men_VC_local_AS4",
+"uns_men_VC_local_AS5",
+"uns_men_VC_local_LMG",
+"uns_men_VC_local_MED",
+"uns_men_VC_local_MRK",
+"uns_men_VC_local_RF7",
+"uns_men_VC_local_SAP",
+"uns_men_VC_local_off",
+"uns_men_VC_mainforce_68_AS2",
+"uns_men_VC_mainforce_68_AS5",
+"uns_men_VC_mainforce_68_AT",
+"uns_men_VC_mainforce_68_AT2",
+"uns_men_VC_mainforce_68_COM",
+"uns_men_VC_mainforce_68_HMG",
+"uns_men_VC_mainforce_68_LMG",
+"uns_men_VC_mainforce_68_MED",
+"uns_men_VC_mainforce_68_MRK",
+"uns_men_VC_mainforce_68_RF1",
+"uns_men_VC_mainforce_68_RF2",
+"uns_men_VC_mainforce_68_RF3",
+"uns_men_VC_mainforce_68_RF4",
+"uns_men_VC_mainforce_68_RTO",
+"uns_men_VC_mainforce_68_SAP",
+"uns_men_VC_mainforce_68_nco",
+"uns_men_VC_mainforce_68_off",
+"uns_men_VC_recon_MGS",
+
+
+
+
+// USMC gear
+this forceAddUniform "UNS_ARMY_BDU_USMC67Dirtyipatch";
+this addItemToUniform "uns_kabar";
+this addVest "UNS_M1956_M1"; // big web gear
+this addVest "UNS_FLAK"; // flak jacket
+this addHeadgear "UNS_USMC_Cover";
+this addHeadgear "UNS_M1_7_baby";
+this addHeadgear "UNS_M1_4";
+this addBackpack "rhssaf_alice_smb";
+
+
+
+// garand
+this addItemToUniform "rhsgref_8Rnd_762x63_Tracer_M1T_M1rifle";
+this addWeapon "rhs_weap_m1garand_sa43";
+
+// M79
+this addItemToUniform "rhs_mag_m576";
+this addItemToUniform "rhs_mag_m713_Red";
+this addItemToUniform "rhs_mag_M441_HE";
+this addWeapon "rhs_weap_m79";
+
+// M1 carbine
+this addItemToUniform "uns_m2carbinemag_T";
+this addWeapon "uns_m1carbine";
+
+// M16A1
+this addItemToUniform "uns_20Rnd_556x45_Stanag";
+this addItemToUniform "uns_20Rnd_556x45_Stanag_T";
+this addWeapon "uns_m16_bc";
+
+this addItemToUniform "uns_30Rnd_556x45_Stanag";
+this addWeapon "uns_M16A1";
+this addPrimaryWeaponItem "uns_b_m7";
+
+
+// M1903
+this addItemToUniform "uns_springfieldmag_T";
+this addWeapon "uns_m1903";
+this addPrimaryWeaponItem "uns_o_Unertl8x";
+
+// Remington M40
+this addItemToUniform "uns_m40mag_T";
+this addWeapon "uns_M40_base";
+this addPrimaryWeaponItem "uns_o_ANPVS2";
+this addPrimaryWeaponItem "uns_o_RedfieldART";
+
+// M14
+this addItemToUniform "hlc_20Rnd_762x51_B_M14";
+this addItemToUniform "hlc_20Rnd_762x51_T_M14";
+this addWeapon "hlc_rifle_M14";
+this addPrimaryWeaponItem "hlc_optic_LRT_m14";
+
+// M60
+this addItemToVest "hlc_100Rnd_762x51_M_M60E4";
+this addWeapon "hlc_lmg_m60";
+
+// Grenades
+this addItemToVest "rhs_mag_m67";
+this addItemToVest "Chemlight_green";
+this addItemToVest "Chemlight_red";
+this addItemToVest "rhs_mag_an_m14_th3";
+this addItemToVest "SmokeShellBlue";
+this addItemToVest "SmokeShellGreen";
+this addItemToVest "SmokeShellOrange";
+this addItemToVest "SmokeShellPurple";
+this addItemToVest "SmokeShellRed";
+this addItemToVest "SmokeShell";
+this addItemToVest "SmokeShellYellow";
+
+// M72 LAW
+this addWeapon "rhs_weap_m72a7";
+
+// Sawed off M79
+this addItemToVest "uns_1Rnd_BS_M576";
+this addItemToVest "Uns_1Rnd_HE_M381";
+this addItemToVest "uns_1Rnd_AB_M397";
+this addWeapon "uns_m79p";
+
+// sawed off M2 carbine
+this addItemToUniform "uns_m2carbinemag_T";
+this addWeapon "uns_m2carbine_shorty_p";
+
+// .357 mag
+this addItemToUniform "uns_357mag";
+this addWeapon "uns_357m";
+
+
+
+
+
+
+
+
+
+// AKs
+this addItemToVest "uns_75Rnd_akdr";
+this addItemToVest "uns_ak47mag_T";
+this addWeapon "uns_akm_drum";
+this addWeapon "uns_ak47";
+this addWeapon "uns_akm";
+this addWeapon "uns_akms";
+this addWeapon "uns_aks47f";
+this addWeapon "uns_type56";
+
+// RPK
+this addItemToVest "uns_ak47mag_T";
+this addWeapon "uns_RPK_40";
+
+// RPD
+this addItemToVest "uns_rpdmag";
+this addWeapon "uns_rpd";
+
+
+
+// SVD
+this addItemToVest "uns_svdmag";
+this addWeapon "uns_svd_base";
+this addPrimaryWeaponItem "uns_o_PSO1";
+
+
+
+
+
+// DP 28
+this addItemToVest "uns_47Rnd_DP28"; // ADD ME
+this addWeapon "uns_DP28_base"; // ADD ME
+
+
+// MAS 49
+this addWeapon "uns_mas4956";
+this addPrimaryWeaponItem "uns_mas4956mag";
+
+
+
+
+
+
+
+
+
+
+this addWeapon "rhsusf_weap_MP7A2";
+this addPrimaryWeaponItem "rhsusf_mag_40Rnd_46x30_FMJ";
+
+
+
+this addWeapon "rhs_weap_savz61";
+this addPrimaryWeaponItem "rhsgref_20rnd_765x17_vz61";
+
+
+
+this addWeapon "hgun_PDW2000_F";
+this addPrimaryWeaponItem "30Rnd_9x21_Mag";
+
+
+
+
+
+
+
+
+
+
+// K50 smg
+this addItemToVest "uns_k50mag";
+this addItemToVest "uns_ppshmag";
+this addWeapon "uns_k50m";
+
+// PPS 63 smg
+this addItemToVest "uns_k50mag";
+this addWeapon "uns_PPS43";
+
+// BAR
+this addItemToVest "uns_barmag";
+this addWeapon "uns_bar";
+
+// M3 carbine night sniper
+this addItemToVest "uns_m1carbinemag";
+this addWeapon "uns_m3carbine";
+
+// mosin
+this addItemToVest "uns_mosinmag";
+this addWeapon "uns_mosin";
+this addPrimaryWeaponItem "uns_o_PU";
+
+
+
+
+
+
+
+// SKS
+this addItemToVest "uns_sksmag";
+this addWeapon "uns_sks";
+
+// SVT40
+this addWeapon "uns_svt";
+this addItemToVest "uns_svtmag";
+
+// B40 RPG
+this addItemToBackpack "uns_B40grenade";
+this addWeapon "uns_B40";
+
+// RPG-2
+this addItemToBackpack "uns_rpg2grenade";
+this addWeapon "uns_rpg2";
+
+// PM
+this addItemToVest "uns_makarovmag";
+this addWeapon "uns_makarov";
+
+// nagant m1895
+this addItemToVest "uns_nagant_m1895mag";
+this addWeapon "uns_nagant_m1895";
+
+// nades and bombs
+this addItemToVest "uns_molotov_mag";
+this addItemToVest "uns_rgd5gren";
+this addItemToVest "uns_rkg3gren";
+this addItemToVest "uns_mine_beer_mag";
+this addItemToBackpack "Mine";
+this addItemToBackpack "uns_mine_AV_mag";
+this addItemToBackpack "uns_mine_AP_mag";
+
+
+
+// colt m4
+this addItemToUniform "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+this addWeapon "hlc_rifle_Colt727";
+
+
+
+
+
+
+comment "Add containers";
+this forceAddUniform "UNS_PBR_Flak_S";
+this forceAddUniform "UNS_JPilot_BDU";
+this forceAddUniform "UNS_Pilot_BDU";
+
+
+this addVest "UNS_FLAK";
+
+
+this addBackpack "rhsusf_eject_Parachute_backpack";
+
+
+
+this addItemToVest "SmokeShellGreen";
+this addItemToVest "SmokeShellOrange";
+this addItemToVest "SmokeShellPurple";
+
+for "_i" from 1 to 22 do {this addItemToBackpack "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
+for "_i" from 1 to 9 do {this addItemToBackpack "rhs_mag_M441_HE";};
+
+
+
+this addHeadgear "UNS_JP_Helmet_366TFW";
+this addHeadgear "rhsgref_helmet_M1_bare_alt01";
+this addHeadgear "UNS_HP_Helmet_OG";
+
+
+
+for "_i" from 1 to 4 do {this addItemToUniform "uns_m1911mag";};
+this addItemToUniform "rhs_mag_m67";
+this addItemToUniform "SmokeShellBlue";
+this addGoggles "murshun_cigs_cig0";
+this addWeapon "hlc_rifle_Colt727_GL";
+this addWeapon "uns_m1911";
+
+
+
+
+23:55:23 [167141,3122.32,0,"XEH: PostInit started. MISSIONINIT: missionName=__cur_mp, missionVersion=53, worldName=tanoa, isMultiplayer=true, isServer=false, isDedicated=false, CBA_isHeadlessClient=false, hasInterface=true, didJIP=false"]
+23:55:23 [167141,3122.33,0,"CBA_VERSIONING: alive_main=1.10.0.1904051, cba=3.11.1.190503, "]
+23:55:23 "0 MCC Medic System: Can't init ACE medic is on"
+23:55:23 [167141,3122.46,0,"XEH: PostInit finished."]
+23:55:23 String STR_A3_Fighter_03_Canopy_name not found
+23:55:23 String STR_A3_Fighter_03_Canopy_name not found
+23:55:23 String STR_A3_Fighter_03_Canopy_name not found
+23:55:25 String STR_NIA_Charm_Generic not found
+23:55:25 String STR_NIA_Charm_Generic not found
+23:55:25 "initPlayerLocal run for SaberSnack (prewaituntil)"
+23:55:25 "initPlayerLocal run for SaberSnack"
+23:55:25 ALiVE_sys_acemenu: ACE interact_menu not active or no interface found, exiting
+23:55:25 [167171,3124.24,0,"CBA_VERSIONING_SERVER: alive_main=1.10.0.1.90405e+006, cba=3.11.1.190503, "]
+23:55:30 Sound: Error: File: a3\ui_f\data\sound\onclick.wss not found !!!
+23:55:30  Mission id: 4a7477399c140fcd5e3c56cda1184610f9b72ca7
+23:55:30 Weather was forced to change
+23:55:31 "OnPlayerRespawn run for SaberSnack"
+23:55:33 "Escape debug: SaberSnack is now ready (clientside)."
+23:55:34 Cannot find a sound file sounds\radio_hanoi.ogg
+23:55:54 safety - unknown animation source revolve
+23:56:02 Ref to nonnetwork object 1268df1ab00# 1676336: metalbarrel_empty_f.p3d REMOTE
+23:56:02 Ref to nonnetwork object 1268df19600# 1676337: metalbarrel_empty_f.p3d REMOTE
+23:56:09 Ref to nonnetwork object 12645eb6080# 1676464: metalbarrel_empty_f.p3d REMOTE
+23:56:10 Ref to nonnetwork object 12645eb7580# 1676465: metalbarrel_empty_f.p3d REMOTE
+23:56:24 Ref to nonnetwork object 12672298100# 1676818: metalbarrel_empty_f.p3d REMOTE
+23:56:24 Ref to nonnetwork object 126721a9600# 1676819: metalbarrel_empty_f.p3d REMOTE
+23:56:28 Sound: Error: File: A3\sounds_f\weapons\shells\9mm\dirt_9mm_02 not found !!!
+23:56:31 Sound: Error: File: A3\sounds_f\weapons\shells\7_62\dirt_762_04 not found !!!
+23:56:32 Sound: Error: File: A3\sounds_f\weapons\shells\7_62\grass_762_02 not found !!!
+23:56:32 Sound: Error: File: A3\sounds_f\weapons\shells\7_62\dirt_762_02 not found !!!
+23:56:32 Sound: Error: File: A3\sounds_f\weapons\shells\7_62\grass_762_02 not found !!!
+23:56:32 Sound: Error: File: A3\sounds_f\weapons\shells\7_62\dirt_762_01 not found !!!
+23:56:32 Sound: Error: File: A3\sounds_f\weapons\shells\7_62\dirt_762_02 not found !!!
+23:56:33 Sound: Error: File: A3\sounds_f\weapons\shells\7_62\dirt_762_01 not found !!!
+23:56:33 Sound: Error: File: A3\sounds_f\weapons\shells\7_62\dirt_762_03 not found !!!
+23:56:33 "Handle Damage!!!!!!!!!!! _unit LOCAL: true _unit OWNER: 0 clientOwner: 4 _playerHealth: 0 _hitSelection:  _oldDamage: 0 _damage: 0.34 _incomingDamage: 0.34 _newDamage: 0.34 _unit: p1"
+23:56:33 "Handle Damage!!!!!!!!!!! _unit LOCAL: true _unit OWNER: 0 clientOwner: 4 _playerHealth: 0 _hitSelection: neck _oldDamage: 0 _damage: 0.00820097 _incomingDamage: 0.00820097 _newDamage: 0.00820097 _unit: p1"
+23:56:33 "Handle Damage!!!!!!!!!!! _unit LOCAL: true _unit OWNER: 0 clientOwner: 4 _playerHealth: 0 _hitSelection: spine1 _oldDamage: 0 _damage: 0.51 _incomingDamage: 0.51 _newDamage: 0.51 _unit: p1"
+23:56:33 "Handle Damage!!!!!!!!!!! _unit LOCAL: true _unit OWNER: 0 clientOwner: 4 _playerHealth: 0 _hitSelection: spine2 _oldDamage: 0 _damage: 0.51 _incomingDamage: 0.51 _newDamage: 0.51 _unit: p1"
+23:56:33 "Handle Damage!!!!!!!!!!! _unit LOCAL: true _unit OWNER: 0 clientOwner: 4 _playerHealth: 0 _hitSelection: spine3 _oldDamage: 0 _damage: 0.0110641 _incomingDamage: 0.0110641 _newDamage: 0.0110641 _unit: p1"
+23:56:33 "Handle Damage!!!!!!!!!!! _unit LOCAL: true _unit OWNER: 0 clientOwner: 4 _playerHealth: 0 _hitSelection: hands _oldDamage: 0 _damage: 0.0122718 _incomingDamage: 0.0122718 _newDamage: 0.0122718 _unit: p1"
+23:56:33 "Handle Damage!!!!!!!!!!! _unit LOCAL: true _unit OWNER: 0 clientOwner: 4 _playerHealth: 0 _hitSelection: body _oldDamage: 0 _damage: 0.00062874 _incomingDamage: 0.00062874 _newDamage: 0.00062874 _unit: p1"
+23:56:33 "Handle Damage!!!!!!!!!!! _unit LOCAL: true _unit OWNER: 0 clientOwner: 4 _playerHealth: 0 _hitSelection:  _oldDamage: 0 _damage: 0 _incomingDamage: 0 _newDamage: 0 _unit: p1"
+23:56:33 Sound: Error: File: A3\sounds_f\weapons\shells\7_62\dirt_762_01 not found !!!
+23:56:34 Sound: Error: File: A3\sounds_f\weapons\shells\7_62\dirt_762_01 not found !!!
+23:56:34 "p1 SHOULD BE DEAD NOW"
+23:56:34 "Handle Damage!!!!!!!!!!! _unit LOCAL: true _unit OWNER: 0 clientOwner: 4 _playerHealth: 0 _hitSelection:  _oldDamage: 0 _damage: 2.29154 _incomingDamage: 2.29154 _newDamage: 2.29154 _unit: p1"
